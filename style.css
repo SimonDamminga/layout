@@ -1,4 +1,9 @@
 /* pagina opmaak */
+#flex-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 body{
 	background-color: #A5A5AF;
 	margin: 0px;
@@ -113,8 +118,7 @@ div.vier:hover{
 div.advertentie-opmaak{
 	position: relative;
 	width: 590px;
-	margin-left: 1100px;
-	margin-top: -890px; 
+	margin-left: -800px;
 }
 div.advertentie-opmaak:hover .advertentie{
 	transform: scale(1.1);
